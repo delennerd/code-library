@@ -1,0 +1,66 @@
+{
+  "name": "vue-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "A small boilerplate for vue projects in projects like WordPress Themes",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "mix --production"
+  },
+  "engines": {
+    "npm": ">=2.1.8"
+  },
+  "author": "Pascal Lehnert",
+  "homepage": "https://delennerd.media",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.0.0",
+    "@popperjs/core": "^2.11.2",
+    "animate.css": "^4.1.1",
+    "axios": "^0.26.1",
+    "bootstrap": "^4.6.0",
+    "bootstrap-icons": "^1.8.1",
+    "jquery": "^3.6.0",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.1.9",
+    "@types/jquery": "^3.5.14",
+    "@types/node": "^17.0.21",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "@vue/cli-plugin-typescript": "^5.0.1",
+    "@vue/eslint-config-typescript": "^10.0.0",
+    "css-loader": "^5.2.7",
+    "laravel-mix": "^6.0.43",
+    "laravel-mix-copy-watched": "^2.3.1",
+    "popper.js": "^1.16.1",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.47.0",
+    "sass-loader": "^12.4.0",
+    "stream-browserify": "^3.0.0",
+    "ts-loader": "^9.2.7",
+    "typescript": "^4.6.2",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-loader": "^15.9.8",
+    "vue-multi-date-picker": "^1.5.0",
+    "vue-property-decorator": "^9.1.2",
+    "vue-template-compiler": "^2.6.14",
+    "vuex": "^3.6.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@vue/typescript/recommended",
+      "@vue/prettier/@typescript-eslint"
+    ],
+    "parserOptions": {
+      "parser": "@typescript-eslint/parser"
+    }
+  },
+  "browser": {
+    "crypto": false
+  }
+}
